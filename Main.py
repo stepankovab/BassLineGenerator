@@ -1,5 +1,5 @@
-from Url_to_chords import SearchForChords
-from Chords_to_notes import BasicBass, WalkingBass, RockAndRollBass, BitesTheDustBass, BillieJean
+from scripts/UrlToChords import SearchForChords
+from scripts/ChordsToNotes import BasicBass, WalkingBass, RockAndRollBass, BitesTheDustBass, BillieJean
 
 def CreateAFile(nameTogether, style):
     f = open("{}-{}.txt".format(nameTogether, style), "w+")
