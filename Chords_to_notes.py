@@ -1,4 +1,3 @@
-from asyncore import write
 import random
 
 #changes note letter to a number
@@ -191,7 +190,7 @@ def GenerateWalkBass(chordMood, nextRoot, upDownNow):
 
     input: A scale that fits to this chord, root note of the next chord, if the bassline is ascending or descending
 
-    output: returns a walking bassline for one chord writen in intervals counting from the root note, the number of generated
+    output: returns a walking bassline for one chord written in intervals counting from the root note, the number of generated
     notes, and if the next chord will have ascending or descending bassline
     '''
     numberOfNotes = 4
@@ -303,7 +302,7 @@ def GenerateRollBass(chordMood):
 
     input: A scale of a current chord
 
-    output: returns a rock and roll bassline for one chord writen in intervals counting from the root note
+    output: returns a rock and roll bassline for one chord written in intervals counting from the root note
     '''
     third = chordMood[2]
 
